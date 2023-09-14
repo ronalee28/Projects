@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.flight-grid{
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 150px 150px 150px 150px;
+  gap: 10px;
+}
+
+.addflight{
+  display: grid;
+  grid-template-rows: 80px 20px;
+  gap: 10px;
+
+}
+.flight-box{
+  border: 1px solid green;
+  padding: 10px;
+}
+
+.signin{
+  margin-right: 400px;
+}
