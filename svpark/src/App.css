@@ -1,0 +1,153 @@
+.App {
+  display: flex;
+  justify-content: center;
+  position:relative;
+  
+}
+.center{
+  display: flex;
+  /* כך שהתוכן יסתדר אנכית */
+  align-items: center; /* מרכוז התוכן אופקית */
+  border: 4px solid black; /* תיקון לקוד הקיים */
+  width: 80vh;
+  position: absolute;
+  top: 160px;
+  left: 50%; /* מרכוז התיבה אופקית */
+  transform: translateX(-50%); /* התיקון של המרכוז האופקי */
+  width: 70vh; /* רוחב קבוע */
+  height: 70vh; /* גובה קבוע */
+  overflow: auto; 
+  
+}
+.Manu {
+  display: flex;
+  flex-direction: column; /* סידור הכפתורים בצורה אנכית */
+  align-items: flex-start; /* סידור הכפתורים בצד שמאל */
+  top:90px;
+  left:50px;
+}
+
+.Manu button{
+  color:white;
+  background-color: black;
+  padding:10px 5px;
+  margin: 20px 15px;
+  box-shadow: 2px 2px 7px 1px #3c6d8d;
+  border-radius: 10px 5px;
+  border: 2px  rgba(162,164,158,0.64);
+}
+
+.Manu button:hover{
+  background: #1C6EA4;
+}
+
+.Manu button:active{
+  background: #144E75; 
+}
+
+.choosePath{
+  display: flex;
+  flex-direction: column; /* סידור הכפתורים בצורה אנכית */
+  align-items: center; /* מרכוז הכפתורים אופקית */
+  margin-left: 22%;
+  right: 250px;
+  top: 100px;
+
+}
+
+.choosePath button{
+  color:white;
+  background-color: black;
+  padding:10px 5px;
+  margin: 20px 15px;
+  box-shadow: 2px 2px 7px 1px #3c6d8d;
+  border-radius: 10px 5px;
+  border: 2px  rgba(162,164,158,0.64);
+  
+
+}
+.choosePath button:hover{
+  background: #1C6EA4;
+}
+.choosePath button:active{
+  background: #144E75; 
+}
+.choosePath input{
+  margin: 10px 10px 5px;
+  
+}
+.allApp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border: 3px black;
+  
+}
+
+.parkingactiveBox{
+  width: 70%;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.parkingactiveBox p{
+  text-shadow: -1px 2px 4px rgba(28,110,164,0.93);
+  font-family:'Courier New', Courier, monospace;
+  font-size: 13px;
+}
+.parkingBox{
+    width: 30%;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .parkingBoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+.parkingBox button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color:white;
+  background-color: black;
+  padding:10px 5px;
+  margin: 20px 15px;
+  box-shadow: 2px 2px 7px 1px #3c6d8d;
+  border-radius: 10px 5px;
+  border: 2px  rgba(162,164,158,0.64);
+}
+.history{
+  display: flex;
+  flex-direction: column; /* סידור הכפתורים בצורה אנכית */
+  align-items: center; /* מרכוז הכפתורים אופקית */
+  position: fixed;
+  left:100px;
+  top: 100px;
+}
+
+.parkingBox button:hover{
+  background: #1C6EA4;
+}
+.parkingBox button:active{
+  background: #144E75; 
+}
+.name {
+  position: absolute;
+  right: 50px;
+  top: 90px;
+  font-size: 20px;
+  /* נוסף סגנונות נוספים לפי הצורך */
+
+  text-shadow: -1px 2px 4px rgba(28,110,164,0.93);
+  font-family:'Courier New', Courier, monospace
+}
+.parag{
+  text-shadow: -1px 2px 4px rgba(28,110,164,0.93);
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+}

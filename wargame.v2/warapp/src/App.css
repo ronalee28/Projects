@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: transparent; /* רקע שקוף */
+
+}
+
+.App-link {
+  color: #61dafb;
+  background-color: transparent; /* רקע שקוף */
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 90%;
+}
+body {
+  /* background-image: url("C:\Users\ronat\OneDrive\שולחן העבודה\full stack\lesson16\warapp\warapp\src\backgroundWarCard.mp4"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: transparent;
+  
+
+}
+
+.content {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  justify-items: center;
+  color: aliceblue;
+  z-index: 1;
+  background-color: transparent;
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center;">
+    <h1>Adding a student (POST)</h1>
+    <input type="text" id="studentName" placeholder="Enter name">
+    <input type="text" id="studentAge" placeholder="Enter Age">
+    <button onclick="addStudent()">Add new student</button>
+
+    <hr style="border-top-width: 5px;">
+    <h1>Showing students in console (GET)</h1>
+    <button onclick="showAllStudents()">Show all students</button> 
+    <button onclick="showStudentsOver20()">Show students over age of 20</button>
+    <hr style="border-top-width: 5px;">
+    <h1>Updating a student (UPDATE)</h1>
+    <input type="text" placeholder="enter name to edit" id="oldName"> 
+    <input type="text" placeholder="new name" id="newName">
+    <button onclick="updateName()">Edit Name</button>
+    <hr style="border-top-width: 5px;">
+    <h1>Delete a student (DELETE)</h1>
+    <input type="text" placeholder="enter name to delete" id="deleteName">
+    <button onclick="deleteNameFunction()">Delete</button>
+<script src="script.js"></script>
+</body>
+</html>

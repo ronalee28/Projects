@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+position: absolute;
+width: 80%;
+height: 80%;
+top:100px;
+display: flex;
+flex-direction: column;
+margin-left: 10%;
+justify-items: center;
+color: aliceblue;
+ }
+
+.inpt{
+padding-left: 20px;
+width: 200px;
+height: 30px;
+align-items: center; 
+ }
+
+.btn{
+    width: 200px;
+height: 34px;
+align-items: center; 
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
