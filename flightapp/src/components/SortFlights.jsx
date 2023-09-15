@@ -14,7 +14,6 @@ export default function SortFlights(props) {
           setFilteredFlights(filtered) //! מעדכנת את המערך למערך מסונן
       }
   }
-  //!מעתיקה מערך של טיסות מסוננות  //! ממיינת לפי קטן גדול ולהפך
     function sortFlights(){
         const sorted = [...filteredFlights] 
         sorted.sort((a,b)=>{ 

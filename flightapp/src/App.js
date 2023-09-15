@@ -7,6 +7,7 @@ import SortFlights from './components/SortFlights';
 import AddFlights from './components/AddFlights';
 import DeleteFlight from './components/DeleteFlight';
 import Main from './components/Main';
+import videoBG from './images/videoBG.mp4'
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
   return (
     <div className="App">
  <BrowserRouter>
-
+ <div className='main'>
+        <video src={videoBG} autoPlay loop muted /></div>
 <div className='child-left'>
     {isLoggedIn && <Main setIsLoggedIn={setIsLoggedIn}/>}
 </div>

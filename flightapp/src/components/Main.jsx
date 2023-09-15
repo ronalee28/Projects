@@ -10,11 +10,11 @@ export default function Main(props) {
     nav('/')
    }
   return (
-    <div className='main'>
-        <Link to={'/controlpanel'}> <button> All flights </button> </Link>
-        <Link to={"/controlpanel/sort"}> <button> Sort flights </button> </Link>
-        <Link to={"/controlpanel/add"}> <button> Add flight </button> </Link>
-        <Link to={"/controlpanel/delete"}> <button> Delete flight </button> </Link>
+    <div className='main2'>
+        <Link to={'/controlpanel'}> <button> All flights </button> </Link> <br/>
+        <Link to={"/controlpanel/sort"}> <button> Sort flights </button> </Link><br/>
+        <Link to={"/controlpanel/add"}> <button> Add flight </button> </Link><br/>
+        <Link to={"/controlpanel/delete"}> <button> Delete flight </button> </Link><br/>
         <button onClick={exit}>  Exit </button>
     </div>
   )

@@ -17,7 +17,7 @@ export default function SignIn(props) {
 
   return (
     <div className='signin'>
-        <h1>Sign in page</h1>
+        <h1>Sign in page</h1><br/>
         <input type="password" onChange={(e)=>setPass(e.target.value)} placeholder='enter pass'/>
         <button onClick={inputHandler}>Sign in!!!</button>
 

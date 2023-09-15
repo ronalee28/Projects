@@ -19,7 +19,7 @@ export default function DeleteFlight(props) {
 
 
   return (
-    <div>
+    <div className='delete'>
         <input type="text" placeholder='enter flight number' onChange={(e)=>setTypedFlightNumber(e.target.value)}/>
         <br />
         <button onClick={handleDeleteFlight}>Delete</button>
